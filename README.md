@@ -9,42 +9,42 @@ Features
 
 🧠 Perceptron:
 
-Binary Classification, Classifies inputs into two categories (1 or -1).
+- Binary Classification, Classifies inputs into two categories (1 or -1).
 
-Adjustable Weights: Learns by adjusting weights based on misclassified inputs.
+- Adjustable Weights: Learns by adjusting weights based on misclassified inputs.
 
-Simple and Lightweight: Suitable for linear classification tasks.
+- Simple and Lightweight: Suitable for linear classification tasks.
 
-🔗 MultiPerceptron
+🔗 MultiPerceptron:
 
-Multiclass Classification: Handles multiple classes using a "one-vs-all" approach.
+- Multiclass Classification: Handles multiple classes using a "one-vs-all" approach.
 
-Modular Design: Built using multiple single-layer perceptrons.
+- Modular Design: Built using multiple single-layer perceptrons.
 
-Flexible: Can predict the class with the highest confidence.
-
-
-Technologies Used
-
-Java: Object-oriented programming language.
-
-Core Programming Concepts: Classes, methods, loops, and arrays.
+- Flexible: Can predict the class with the highest confidence.
 
 
-How It Works
+Technologies Used:
 
-Perceptron
+- Java: Object-oriented programming language.
 
-Initialization: Define the number of inputs and initialize the weights.
+- Core Programming Concepts: Classes, methods, loops, and arrays.
 
-Training: Update weights if the predicted output differs from the expected output.
 
-Prediction: Compute the weighted sum of inputs and classify as 1 or -1.
+How It Works:
 
-MultiPerceptron
+1)Perceptron:
 
-Initialization: Create multiple Perceptrons (one for each class).
+- Initialization: Define the number of inputs and initialize the weights.
 
-Training: Train each Perceptron to recognize its class versus all others.
+- Training: Update weights if the predicted output differs from the expected output.
 
-Prediction: Select the class with the highest weighted sum.
+- Prediction: Compute the weighted sum of inputs and classify as 1 or -1.
+
+2)MultiPerceptron:
+
+- Initialization: Create multiple Perceptrons (one for each class).
+
+- Training: Train each Perceptron to recognize its class versus all others.
+
+- Prediction: Select the class with the highest weighted sum.
