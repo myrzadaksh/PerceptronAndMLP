@@ -48,3 +48,30 @@ How It Works:
 - Training: Train each Perceptron to recognize its class versus all others.
 
 - Prediction: Select the class with the highest weighted sum.
+
+
+Learning Outcomes:
+  
+- Understand the Perceptron algorithm and its applications in binary classification.
+  
+- Learn how to extend the Perceptron for multiclass classification using a modular approach.
+  
+- Practice Java programming with a focus on machine learning concepts.
+
+  
+Future Enhancements:
+
+- Add learning rate for more refined weight adjustments.
+  
+- Extend to handle non-linear problems using activation functions.
+  
+- Implement visualization tools to display decision boundaries.
+
+  
+Contributing:
+- Contributions are welcome! If you have ideas to improve this project, feel free to fork the repository, submit an issue, or create a pull request.
+
+
+License:
+
+- This project is licensed under the MIT License.
